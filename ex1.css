@@ -1,0 +1,83 @@
+/* Apply the "Happy Monkey" web-font across the entire page */
+
+@import url('https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap');
+
+* {
+    font-family: "Happy Monkey", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+/* Set the container class's width to 800px and center it on the page. */
+/* Apply 50px padding on both the left and right sides. */
+.container {
+    width: 800px;
+    text-align: center;
+    margin: 10px auto; /* this is centering? */
+    padding-left: 50px;
+    padding-right: 50px;
+}
+/* Change the color of all p and li elements to #707070. */
+/* Add 5px padding to the top and bottom of all li elements. */
+p {
+    color: #707070;
+}
+
+li {
+    color: #707070;
+    padding: 5px;
+}
+
+/* Center all text within the header section */
+header {
+    text-align: center;
+}
+
+/* Style the headings with the following colors: h1 = #DB0038, h2 =
+#3998A3 and h3 = #474747 */
+
+h1 {
+    color: #DB0038;
+}
+
+h2 {
+    color: #3998A3
+}
+
+h3 {
+    color: #474747
+}
+
+/* Hero section - set the background color #f4f4f4 and center the text
+within this section. Additionally put shadows so it can be
+distinguished from the background (center with a 10px blur). Also
+insert a padding property with the value of 50px just for the left and
+right side. */
+
+.hero {
+    background-color: #f4f4f4;
+    text-align: center;
+    box-shadow: 0 0 10px 10px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+/* Ensure img elements have a 100% width. */
+
+img {
+    width: 100%;
+}
+
+/* Change the color of the star symbols in the rating section to
+#F4B400 and set their size to 25px. */
+
+.checked {
+    color: orange;}
+
+.stars {
+    font-size: 25px !important;}
+
+/* Center the content within the footer. */
+
+footer{
+    text-align: center;
+}
