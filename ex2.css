@@ -1,0 +1,117 @@
+.wrapper {
+    height: 200vh;
+    margin: 10px auto;
+    /* border: 1px solid black; */
+}
+
+nav {
+    /* background-color: antiquewhite; */
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    padding: 10px;
+    position: sticky;
+    top:0;
+    ul {
+        display: flex;
+        justify-content: center;
+        list-style-type: none;
+        gap: 30px;
+        a {
+            font-size: 2rem;
+            text-decoration: none;
+            font-weight: bold;
+            color: brown;
+        }
+    }
+}
+
+.hero {
+    text-align: center;
+    width: 50vw;
+    margin: 10px auto;
+    /* border: 1px solid black; */
+
+    #cow {
+        width:20rem;
+        box-shadow: 0 0 10px 10px;
+    }
+}
+
+.center {
+    font-size: 5rem;
+    text-align: center;
+    #logo {
+        width: 10rem;
+    }
+}
+
+.content {
+    width: 50vw;
+    text-align: justify;
+    text-indent: 30px;
+    margin: 30px auto;
+    padding: 25px;
+    font-size: 2rem;
+    background-color: rgba(165, 42, 42, 0.326);
+    line-height: normal;
+    letter-spacing: 2px;
+    word-spacing: 6;
+
+    span {
+        font-weight: bold;
+        color: rgb(155, 19, 19);
+    }
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    /* left: 1200px; */
+    right: 0px;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: rgba(250, 235, 215, 0.459);
+    text-align: center;
+}
+
+#firstname{
+    width: 20vw;
+    height: 10vh;
+    font-size: 2rem;
+    
+}
+
+#surname{
+    width: 20vw;
+    height: 10vh;
+    font-size: 2rem;
+}
+
+#email{
+    width: 20vw;
+    height: 10vh;
+    font-size: 2rem;
+}
+
+#country{
+    width: 20vw;
+    height: 10vh;
+    font-size: 2rem;
+}
+
+#button{
+    width: 20vw;
+    height: 10vh;
+    font-size: 2rem;
+}
+
+form {
+    padding: 30px;
+    border: 1px solid black; 
+    text-align: center;
+
+}
+
+h2 {
+    text-shadow: 10px 10px 4px  #a49a9a;
+}
